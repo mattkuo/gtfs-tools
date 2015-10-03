@@ -1,0 +1,8 @@
+package java;
+
+import "Stop.proto";
+
+message RouteData {
+	repeated int32 stops0 = 1 [packed=true];
+	repeated int32 stops1 = 2 [packed=true];
+}

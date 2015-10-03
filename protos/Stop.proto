@@ -1,0 +1,9 @@
+package java;
+
+import "Coordinate.proto";
+
+message Stop {
+	optional int32 stop_code = 1;
+	optional string stop_name = 2;
+	optional java.Coordinate coordinate = 3;
+}

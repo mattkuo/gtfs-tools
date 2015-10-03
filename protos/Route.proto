@@ -1,0 +1,6 @@
+package java;
+
+message Route {
+	optional string route_short = 1;
+	optional string route_long = 2;
+}

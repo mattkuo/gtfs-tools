@@ -1,0 +1,7 @@
+package java;
+
+import "Path.proto";
+
+message Shape {
+	repeated java.Path path = 1;
+}

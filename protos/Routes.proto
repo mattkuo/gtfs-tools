@@ -1,0 +1,6 @@
+package java;
+import "Route.proto";
+
+message Routes {
+	repeated java.Route routes = 1;
+}
