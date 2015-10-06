@@ -12,3 +12,5 @@ There are four main scripts including the Rakefile:
 * route-create.py - Queries route and shape information from the SQLite file generated from create-sqlite.py into protobuf files.
 
 * Rakefile - Builds Python and Java proto files.
+
+The protos folder includes all the protobuffer classes to get GTFS data into route and shape information.
